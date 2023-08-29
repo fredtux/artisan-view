@@ -7,7 +7,7 @@ This is a **forked** version of [https://github.com/svenluijten/artisan-view](ht
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
 [![Software License][ico-license]](LICENSE.md)
-[![Build Status][ico-circleci]][link-circleci]
+[![Build Status][ico-build]][link-build]
 [![StyleCI][ico-styleci]][link-styleci]
 
 This package adds a handful of view-related commands to Artisan in your Laravel
@@ -172,6 +172,7 @@ welcome. See the [contributors page](../../graphs/contributors) for all contribu
 
 [ico-version]: https://img.shields.io/packagist/v/fredtux/artisan-view.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-green.svg?style=flat-square
+
 [ico-downloads]: https://img.shields.io/packagist/dt/fredtux/artisan-view.svg?style=flat-square
 [ico-circleci]: https://img.shields.io/circleci/project/github/fredtuxluijten/artisan-view.svg?style=flat-square
 [ico-styleci]: https://styleci.io/repos/56054783/shield
@@ -179,4 +180,5 @@ welcome. See the [contributors page](../../graphs/contributors) for all contribu
 [link-packagist]: https://packagist.org/packages/fredtux/artisan-view
 [link-downloads]: https://packagist.org/packages/fredtux/artisan-view
 [link-circleci]: https://circleci.com/gh/fredtuxluijten/artisan-view
+
 [link-styleci]: https://styleci.io/repos/56054783
