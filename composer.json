@@ -1,5 +1,5 @@
 {
-    "name": "sven/artisan-view",
+    "name": "fredtux/artisan-view",
     "description": "Manage your views in Laravel projects through artisan",
     "keywords": [
         "artisan",
