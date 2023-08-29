@@ -1,6 +1,6 @@
 {
     "name": "fredtux/artisan-view",
-    "description": "Manage your views in Laravel projects through artisan",
+    "description": "Manage your views in Laravel projects through artisan + generate CRUD views based on a model using bootstrap",
     "keywords": [
         "artisan",
         "laravel",
@@ -14,6 +14,10 @@
             "name": "Sven Luijten",
             "email": "contact@svenluijten.com",
             "homepage": "https://svenluijten.com"
+        },
+        {
+            "name": "Florin Dinu",
+            "homepage": "https://github.com/fredtux"
         }
     ],
     "require": {
