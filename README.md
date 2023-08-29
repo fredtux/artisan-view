@@ -1,5 +1,8 @@
 ![artisan-view](https://cloud.githubusercontent.com/assets/11269635/14457826/a3bde82a-00ad-11e6-8161-0c218937156a.jpg)
 
+# DISCLAIMER
+This is a **forked** version of [https://github.com/svenluijten/artisan-view](https://github.com/svenluijten/artisan-view) which adds the ability to **generate CRUD views based on a model using bootstrap**
+
 # Artisan View
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
@@ -31,21 +34,21 @@ You'll have to follow a couple of simple steps to install this package.
 Via [composer](http://getcomposer.org):
 
 ```bash
-composer require sven/artisan-view --dev
+composer require fredtux/artisan-view --dev
 ```
 
 ### Registering the service provider
 If you're using Laravel 5.5 or above, you can skip this step. The service provider will have already been 
 registered thanks to auto-discovery.
 
-Otherwise, register `Sven\ArtisanView\ServiceProvider::class` manually in your `AppServiceProvider`'s
+Otherwise, register `fredtux\ArtisanView\ServiceProvider::class` manually in your `AppServiceProvider`'s
 `register` method:
 
 ```php
 public function register()
 {
     if ($this->app->environment() !== 'production') {
-        $this->app->register(\Sven\ArtisanView\ServiceProvider::class);
+        $this->app->register(\fredtux\ArtisanView\ServiceProvider::class);
     }    
 }
 ```
@@ -164,16 +167,16 @@ All contributions (in the form on pull requests, issues and feature-requests) ar
 welcome. See the [contributors page](../../graphs/contributors) for all contributors.
 
 ## License
-`sven/artisan-view` is licenced under the MIT License (MIT). Please see the
+`fredtux/artisan-view` is licenced under the MIT License (MIT). Please see the
 [license file](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/sven/artisan-view.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/fredtux/artisan-view.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-green.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/sven/artisan-view.svg?style=flat-square
-[ico-circleci]: https://img.shields.io/circleci/project/github/svenluijten/artisan-view.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/fredtux/artisan-view.svg?style=flat-square
+[ico-circleci]: https://img.shields.io/circleci/project/github/fredtuxluijten/artisan-view.svg?style=flat-square
 [ico-styleci]: https://styleci.io/repos/56054783/shield
 
-[link-packagist]: https://packagist.org/packages/sven/artisan-view
-[link-downloads]: https://packagist.org/packages/sven/artisan-view
-[link-circleci]: https://circleci.com/gh/svenluijten/artisan-view
+[link-packagist]: https://packagist.org/packages/fredtux/artisan-view
+[link-downloads]: https://packagist.org/packages/fredtux/artisan-view
+[link-circleci]: https://circleci.com/gh/fredtuxluijten/artisan-view
 [link-styleci]: https://styleci.io/repos/56054783
